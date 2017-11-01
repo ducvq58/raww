@@ -1,0 +1,36 @@
+@font-face {
+ font-family: 'Avenir_Black';
+ src: url('../fonts/AvenirLT-Black.eot');
+ src: url('../fonts/AvenirLT-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AvenirLT-Black.woff') format('woff'),
+  url('../fonts/AvenirLT-Black.ttf') format('truetype');
+ font-weight: bold;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'Avenir_Heavy';
+ src: url('../fonts/Avenir-Heavy.eot');
+ src: url('../fonts/Avenir-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Avenir-Heavy.woff') format('woff'),
+  url('../fonts/Avenir-Heavy.ttf') format('truetype');
+ font-weight: bold;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'Markerfield';
+ src: url('../fonts/MarkerfieldW00-Regular.eot');
+ src: url('../fonts/MarkerfieldW00-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MarkerfieldW00-Regular.woff') format('woff'),
+  url('../fonts/MarkerfieldW00-Regular.ttf') format('truetype');
+ font-weight: bold;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'Avenir-Roman';
+ src: url('../fonts/AvenirLTStd-Roman.eot');
+ src: url('../fonts/AvenirLTStd-Roman?#iefix') format('embedded-opentype'),
+  url('../fonts/AvenirLTStd-Roman.woff') format('woff'),
+  url('../fonts/AvenirLTStd-Roman.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}

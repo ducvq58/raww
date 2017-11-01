@@ -1,0 +1,409 @@
+html {
+	font-size: 1vw;
+}
+body {
+	font-family: Avenir-Roman !important;
+}
+p{
+	margin: 0 !important;
+	padding: 0;
+}
+a{
+	color: #30241a !important;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.row {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+.warpper {
+	background-color: #fff;
+	font-size: 1vw;
+}
+.topbar {
+	background-color: #e9d5d2;
+	font-family: Avenir_Heavy;
+	font-size: 1vw;
+	padding: 8px 13px;
+	text-align: center;
+}
+#main-nav {
+	z-index: 1;
+  	position: relative;
+}
+ul li {
+	list-style: none;
+}
+.pull-right {
+	float: right;
+}
+.logo {
+	padding: 10px 20px;
+}
+.form-search {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: #eeeeee 2px solid !important;
+	border-radius: 0.1rem !important;
+	font-size: 1vw !important;
+	padding: 0.5rem 0.5rem !important;
+	margin-right: 5px;
+}
+#search-row {
+	margin: 10px 0;
+}
+#nav {
+	display: block;
+}
+#nav ul{
+	margin: 0px;
+	bottom: 0;
+}
+#nav li{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Avenir_Black;
+	padding: 8px;
+	display: inline-block;
+	float: left;
+	font-size: 1vw;
+}
+.rhs-icon {
+	vertical-align: middle;
+	display: inline-block;
+	margin: auto;
+	padding: 5%;
+	width: 40%;
+}
+.rhs-bag {
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	height: 100%;
+}
+.rhs-bag img {
+	height: 50%;
+	z-index: 1
+}
+.rhs-quantity {
+	width: 1.5vw;
+	height: 1.5vw;
+	border-radius: 0.75vw;
+	margin-left: -15%;
+	margin-top: 28%;
+	display: inline-block;
+	position: absolute;
+	background-color: #8b7f71;
+	color: white;
+	font-size: 1vw;
+	font-family: Avenir_Heavy;
+	text-align: center;
+}
+.rhs-bag .dropdown-content {
+	border: 2px solid #e9d5d2;
+	padding: 10px;
+	margin-top: 5px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 25vw;
+    min-height: 35vw;
+    overflow: auto;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 3;
+}
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+.product-in-bag {
+	border-bottom: #eeeeee 1px solid;
+	padding: 15px 0;
+}
+.product-in-bag img {
+	width: 100%;
+	height: auto;
+}
+#bag-dropdown .row {
+	padding: 5px 0;
+}
+.scrollable {
+    height: auto;
+    max-height: 30vw;
+    overflow-x: hidden;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.center {
+	margin: auto;
+    width: 100%;
+    padding: 0 !important;
+}
+#usp-message-header {
+	position: relative;
+	color: #30241a;
+	font-family: Avenir_Black;
+}
+#usp-message-header .card-group .card {
+	border-bottom: none;
+	border-color: #eeeeee;
+}
+#usp-message-header .card-group .card:first-child {
+	border-radius: 0;
+	border-left: none;
+}
+#usp-message-header .card-group .card:last-child {
+	border-radius: 0;
+	border-right: none;
+}
+#usp-message-header .usp-message-item {
+	text-align: center;
+	padding: 1vw 0;
+}
+#main_banner {
+  	padding: 13% 0 18% 0;
+  	position: relative;
+  	color: white;
+	background: url(../img/main_banner.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+}
+.tile-marker {
+	font-family: Markerfield;
+}
+.tile-marker h1{
+	font-size: 6.1vw;
+	letter-spacing: -2px;
+	line-height: 80%;
+}
+.tile-marker h2{
+	font-size: 4vw;
+	letter-spacing: -2px;
+	line-height: 80%;
+}
+.main-banner-subtitle {
+	margin: 20px 0;
+	font-size: 1.1vw;
+}
+.btn-raww {
+	border: none !important;
+	border-radius: 0.1rem !important;
+	font-size: 1vw !important;
+	font-family: Avenir_Heavy;
+	padding: 11px 17px !important; 
+}
+#tiles-3 {
+	z-index: 1;
+  	padding: 50px 0;
+  	position: relative;
+  	color: white;
+	background-size: cover;
+	background-position: center center;
+	background: url(../img/bg-2.png) no-repeat;
+}
+.img-tiles {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.bottom-left {
+	position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+#ingredients {
+	padding: 50px 0;
+	position: relative;
+	color: #30241a;
+	text-align: center;
+}
+.medium-title {
+	font-family: Avenir_Heavy;
+}
+.medium-title h2 {
+	font-size: 2.4vw;
+}
+.medium-subtitle {
+	margin: 20px 0;
+	font-size: 1.2vw;
+}
+.vertical-box {
+	margin: 10px 0;
+}
+.vertical-box-img {
+	margin: 6px;
+}
+.vertical-box-text {
+	text-transform: uppercase;
+	font-family: Avenir_Black;
+	font-size: 1vw;
+	line-height: 110%;
+}
+#best_seller {
+	padding: 100px 0;
+	position: relative;
+	color: #30241a;
+	text-align: center;
+	background: url(../img/bg-3.png) no-repeat;
+}
+.white {
+	color: #fff;
+}
+.product-box {
+	background-color: white;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+.product-color-circle {
+	width: 15%;
+	padding-top: 15%;
+	border-radius: 50%;
+	margin-right: 1px;
+	display: inline-block;
+}
+#color {
+	margin: 10px 0;
+	min-height: 30px;
+}
+#color-1{
+	background-color: #bf948a;
+}
+#color-2{
+	background-color: #f48f76;
+}
+#color-3{
+	background-color: #dc6a74;
+}
+#color-4{
+	background-color: #e16044;
+}
+#color-5{
+	background-color: #e16044;
+}
+.inline-block {
+	display: inline-block;
+}
+#color-more {
+	display: inline;
+	margin: 0px;
+	font-size: 10px;
+}
+#quantity {
+	margin: 20px;
+	text-align: center;
+}
+.text-center{
+	text-align: center !important;
+}
+.input-group {
+	height: 100%;
+}
+#shop-instagram {
+	padding: 50px 0 20px 0;
+	position: relative;
+	color: #30241a;
+	text-align: center;
+}
+#shop-instagram img{
+	padding: 7px;
+}
+.btn-bottom {
+	margin: 20px;
+}
+#top-footer {
+	padding: 70px 0;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	background: url(../img/bg-4.png) no-repeat;
+	background-size: cover;
+}
+#usp-message-footer {
+	padding: 30px 0;
+	position: relative;
+	color: #30241a;
+	border-bottom: #eeeeee 3px solid;
+}
+.usp-message-item {
+	text-align: center;
+}
+.img-holder {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.8vw;
+	width: 1.9vw;
+	height: 1.9vw;
+}
+.text-holder {
+	display: inline-block;
+	text-align: left;
+	font-family: Avenir_Black;
+	font-size: 0.8vw;
+	text-transform: uppercase;
+}
+
+#footer-nav {
+	padding: 40px 0;
+	position: relative;
+	color: #30241a;
+}
+#footer-nav ul {
+	padding-left: 0;
+}
+#footer-nav h4 {
+	font-size: 1.2vw;
+	font-family: Avenir_Heavy
+}
+#bottom-footer {
+	padding: 20px 0;
+	position: relative;
+	color: #30241a;
+	border-top: #eeeeee 1px solid;
+}
+.form-raww {
+	border: none !important;
+	border-radius: 0.1rem !important;
+	font-size: 1vw !important;
+	padding: 11px 11px !important;
+	margin-right: 5px;
+	height: 100%;
+}
+.copyright {
+	display: inline-block;
+	text-align: left;
+	font-size: 0.9vw;
+}
+.btn-dark {
+	background-color: #30241a !important;
+}
